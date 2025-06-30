@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+
+
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0px;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+
+
+        .sec-1 {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+
+        }
+
+        .bg-img {
+            background-image: url('hawaiian-salmon-poke-in-bowl-2lqt0fw8jy8tp5cw.jpg');
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.8);
+
+            width: 100%;
+            height: 100%;
+        }
+
+        .inner-1 {
+            position: absolute;
+
+            color: white;
+            text-align: center;
+
+        }
+
+        .inner-1 h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 100px;
+
+            margin: 30px;
+            font-weight: 100;
+        }
+
+        .inner-1 h2 {
+            font-family: sans-serif;
+
+        }
+
+        @media (max-width: 676px) {
+            .inner-1 h1 {
+                font-family: 'Pacifico', cursive;
+                font-size: 50px;
+                text-shadow: 1px 1px 1px black;
+                margin-bottom: 10px;
+            }
+
+            .inner-1 h2 {
+                font-family: sans-serif;
+                font-size: 20px;
+                text-shadow: 1px 1px 1px black;
+
+            }
+
+            .btn {
+                background-color: #2ED47A;
+                transition: ease 0.3s;
+                width: 50px;
+                height: 34px;
+                font-size: 15px;
+                color: white;
+            }
+        }
+
+        .btn {
+            background-color: #2ED47A;
+            transition: ease 0.3s;
+            width: 130px;
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: #25994f;
+        }
+
+        .every-bowl .row img {
+            max-width: 200px;
+        }
+
+
+
+        .every-bowl .col {
+            text-align: center;
+            padding: 30px;
+
+        }
+
+        .every-bowl .btn {
+            width: 40px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .every-bowl {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .every-bowl p {
+            font-family: 'Georgia', 'Times New Roman', serif;
+        }
+
+        .every-bowl p h1 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .sec-3 img {
+            max-height: 350px;
+            border-radius: 50%;
+
+        }
+
+        .sec-3 .healthy {
+            text-align: center;
+
+        }
+
+        .healthy p {
+            margin: 7px;
+        }
+
+        .sec-3 .btn {
+            width: 150px;
+            font-size: 15px;
+            color: white;
+        }
+
+        .sec-3imd {
+            text-align: center;
+        }
+
+        .sec-3 {
+            background-color: #E7F8EE;
+            padding: 30px;
+        }
+
+        .sec-4 img {
+            max-height: 350px;
+            border-radius: 50%;
+
+        }
+
+        .sec-4 .healthy {
+            text-align: center;
+
+        }
+
+        .healthy p {
+            margin: 7px;
+        }
+
+        .sec-4 .btn {
+            width: 150px;
+            font-size: 15px;
+            margin: 15px;
+        }
+
+        .sec-4 .col1 {
+            text-align: center;
+        }
+
+        .sec-4 {
+
+            padding: 30px;
+        }
+
+        .bg-image1 {
+            background-image: url('avacado.webp');
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.7);
+        }
+
+        .avacado {
+            aspect-ratio: 16/3;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+        }
+
+        .avacado .row {
+            position: absolute;
+            width: 100%;
+        }
+
+        .avacado .col {
+            text-align: center;
+            color: white;
+        }
+
+        .avacado i {
+            color: white;
+            background-color: #2ED47A;
+            font-size: 80px;
+            padding: 20px;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 876px) {
+            .avacado i {
+                font-size: 40px;
+                padding: 10px;
+                border-radius: 50%;
+            }
+
+            .avacado {
+                aspect-ratio: 16/4;
+
+            }
+
+        }
+
+        .planet i {
+            font-size: 40px;
+            color: #2ED47A;
+        }
+
+        .planet .col1 {
+            text-align: center;
+        }
+
+        .planet p {
+            margin: 1px;
+        }
+
+        .planet {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .planet .row {
+            padding: 50px;
+        }
+
+        .poke img {
+            max-height: 100px;
+            border-radius: 50%;
+            margin-top: -70px;
+            margin-bottom: 30px;
+        }
+
+        .poke1 {
+            background-color: #E7F8EE;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .poke1 h1 {
+            margin-bottom: 50px;
+        }
+
+        .poke {
+
+            padding: 55px;
+
+        }
+
+        .poke .col1 {
+            background-color: white;
+            padding: 30px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .poke .row {
+            padding: 0px;
+
+
+            text-align: center;
+        }
+
+        .poke p {
+            margin: 5px;
+        }
+
+        .sec5 img {
+            max-width: 100%;
+        }
+
+        .sec5 .col {
+            text-align: center;
+        }
+
+        .sec5-main {
+            padding: 40px;
+        }
+
+        .sec-6 img {
+            max-width: 350px;
+        }
+         @media (max-width: 876px) {
+            .sec-6 img {
+            max-width: 300px;
+        }
+         }
+
+        .sec-6 .col1 {
+            text-align: left;
+        }
+
+        .sec-6 .col2 {
+            text-align: left;
+        }
+
+        .sec-6 {
+            padding: 70px;
+            text-align: center;
+        }
+         .sec-6 h1{
+            margin-bottom: 30px;
+         }
+        .sec-6 p{
+            margin: 4px;
+        }
+        .sec-6 input{
+            border: none;
+            background-color: rgba(180, 175, 175, 0.127);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .foot{
+            background-color: rgb(45, 44, 44);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class=" container-fluid sec-1">
+            <div class="bg-img"></div>
+            <div class="inner-1">
+                <h1>poke bowl</h1>
+                <h2>FRESH, HEALTHY AND TASTY</h2>
+                <button class="btn btn-success">View more</button>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid every-bowl">
+                <p>4 parts</p>
+                <h1>TO EVERY BOWL</h1>
+                <div class="row g-1">
+                    <div class="col-12 col-sm-6 col-lg-3 col">
+                        <img src="360_F_860205315_HIEvk2z76O9yhiBaGjjcrqFS5OgCaqTW-Photoroom.png" alt=""><br>
+                        <button class="btn ">1</button>
+                        <p>Rice or noodles</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 col">
+                        <img src="dish11-Photoroom-removebg-preview.png" alt=""><br>
+                        <button class="btn ">2</button>
+                        <p>fresh fish or tofu</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 col">
+                        <img src="dish.1-Photoroom.png" alt=""><br>
+                        <button class="btn ">3</button>
+                        <p>Dressing and toppings</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 col">
+                        <img src="360_F_860205315_HIEvk2z76O9yhiBaGjjcrqFS5OgCaqTW-Photoroom.png" alt=""><br>
+                        <button class="btn  ">4</button>
+                        <p>Fresh fruit and veggie</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid sec-3">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 healthy ">
+                        <h1>HEALTHY AND</h1>
+                        <h1>TASTY</h1>
+                        <p>Poke (pronounced “POH-kay”) bowls are hearty, fresh,</p>
+                        <p>colourful and delicious! Made from wholesome, ethically</p>
+                        <p>farmed ingredients, this includes everything from </p>
+                        <p>and edamame to mushrooms and mangoes. Diced, ,</p>
+                        <p>raw or seared however you like it, we put beauty </p>
+                        <p>freshness in each bowl. Create your own combination or</p>
+                        <p>head in to check out one of our in-house classics.</p>
+                        <button class="btn">MORE ABOUT US</button>
+                    </div>
+                    <div class="col-12 col-md-6 sec-3imd">
+                        <img src="Seared-Miso-Tofu-Poke-Bowl-2_550x550.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid sec-4">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 col1">
+                        <img src="Seared-Miso-Tofu-Poke-Bowl-2_550x550.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 healthy ">
+                        <h1>HEALTHY AND</h1>
+                        <h1>TASTY</h1>
+                        <p>Poke (pronounced “POH-kay”) bowls are hearty, fresh,</p>
+                        <p>colourful and delicious! Made from wholesome, ethically</p>
+                        <p>farmed ingredients, this includes everything from </p>
+                        <p>and edamame to mushrooms and mangoes. Diced, ,</p>
+                        <p>raw or seared however you like it, we put beauty </p>
+                        <p>freshness in each bowl. Create your own combination or</p>
+                        <p>head in to check out one of our in-house classics.</p>
+                        <button class="btn">MORE ABOUT US</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid avacado">
+                <div class="bg-image1">
+
+                </div>
+                <div class="row ">
+                    <div class="col-4 col-sm-4 col">
+                        <i class="fas fa-leaf"></i>
+                        <p>Since 2009</p>
+                    </div>
+                    <div class="col-4 col-md-4 col">
+                        <i class="fas fa-utensils"></i>
+                        <p>5 Restaurants</p>
+                    </div>
+                    <div class="col-4 col-sm-4 col">
+                        <i class="far fa-user"></i>
+                        <p>+40 followers</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid planet">
+                <p>Our Impact</p>
+                <h1>ON THE PLANET</h1>
+                <div class="row g-4">
+                    <div class="col-12 col-md-4 col">
+                        <i class="fas fa-fish"></i>
+                        <h5>FAIR FISH</h5>
+                        <p>sample text.Click to select the Text</p>
+                        <p>Element</p>
+                    </div>
+                    <div class="col-12 col-md-4 col">
+                        <i class="fas fa-tractor"></i>
+                        <h5>LOCAL AGRICULTURAL</h5>
+                        <P>Sample Text.Click to select the text</P>
+                        <p>Element</p>
+                    </div>
+                    <div class="col-12 col-md-4 col">
+                        <i class="fas fa-seedling"></i>
+                        <h5>100% Organic</h5>
+                        <p>Sample Text.Click to select the Text</p>
+                        <p>Element</p>
+                    </div>
+                    <div class="col-12 col-md-4 col">
+                        <i class="fas fa-ban"></i>
+                        <h5>NO PESTICIDE</h5>
+                        <p>Sample Text.Click to select the Text</p>
+                        <p>Element</p>
+                    </div>
+                    <div class="col-12 col-md-4 col">
+                        <i class="fas fa-trash-alt"></i>
+                        <h5>NO Waste</h5>
+                        <p>Sample Text.Click to select the Text</p>
+                        <p>Element</p>
+                    </div>
+                    <div class="col-12 col-md-4 col">
+                        <i class="fas fa-truck"></i>
+                        <h5>GREEN LOGISTICS</h5>
+                        <p>Sample Text.Click to select the Text</p>
+                        <p>Element</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid poke1">
+                <p>They Love</p>
+                <h1>OUR POKE BOWL</h1>
+                <div class="poke">
+                    <div class="row g-5">
+                        <div class="col-12 col-md-5 col col1">
+                            <div class="profile">
+                                <div class="img">
+                                    <img src="girl1.jpg" alt="">
+                                </div>
+                                <p>i used to think poke was another word for salad. Now I</p>
+                                <p>know it is SO MUCH MORE. Delicious</p>
+                                <h3>NINA SCAVO</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col col1">
+                            <div class="profile">
+                                <div class="img">
+                                    <img src="girl2.jpg" alt="">
+                                </div>
+                                <p>i used to think poke was another word for salad. Now I</p>
+                                <p>know it is SO MUCH MORE. Delicious</p>
+                                <h3>TINA MARANTINO</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid sec5-main">
+                <div class="row g-4 sec5">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="food1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="food2.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="food7.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="food2.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="food5.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="food1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid sec-6">
+                <h1>CONTACTS</h1>
+                <div class="row g-5">
+                    <div class="col-12 col-md-6 col1">
+                        <img src="dish.1-Photoroom.png" alt="" class="img-fluid">
+                        <p>Use our cntact form fora;l the informati requeasts or conatct</p>
+                        <p>us directly usibg the contact information below</p><br>
+                        <p>Feel free t det touch with us via email or phone</p>
+                    </div>
+                    <div class="col-12 col-md-6 col2">
+                        <h5>SUGN UP FOR NEWSLETTER</h5><br>
+                        <p>Want to be the first to rread our news? Subcribe to the</p>
+                        <p>newsletter to keep abreast of all events</p><br>
+                        <input type="text" placeholder="Enter a valid email address">
+                        <button class="btn"> SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container-fluid foot">
+             <p >&copy; 2025 Poke Bowl. All rights reserved. <a href="https://www.linkedin.com/in/arjun-p-s-42bb82311">click here</a></p>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
